@@ -1,0 +1,22 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan\n\nHere is a one-day meal plan for an athlete doing high-intensity endurance training with marathon preparation:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (130g), Fat (85g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (6:30 AM - Pre-Workout Fuel):** Oatmeal (100g dry weight) with honey (40g), banana (150g), and whole milk (240g). 2 eggs scrambled (100g).\n    * Protein: 20g, Fat: 12g, Carbs: 95g\n\n* **During Workout (8:00-10:30 AM - Hydration & Simple Carbs):** Sports drink (500ml) with 6% carbohydrate concentration (electrolyte drink), 1 energy gel (40g).\n    * Protein: 0g, Fat: 0g, Carbs: 60g\n\n* **Post-Workout Snack (10:45 AM - Recovery Window):** Chocolate milk (400g), granola bar (65g), and orange (150g).\n    * Protein: 18g, Fat: 8g, Carbs: 95g\n\n* **Lunch (1:00 PM - Carb Loading & Protein):** Pasta with marinara sauce (200g cooked pasta, 150g sauce), grilled chicken breast (140g), mixed green salad (100g) with olive oil dressing (15g), and white bread roll (50g).\n    * Protein: 45g, Fat: 18g, Carbs: 110g\n\n* **Afternoon Snack (4:00 PM - Sustained Energy):** Rice cakes (60g) with almond butter (30g), apple (120g), and coconut water (250ml).\n    * Protein: 10g, Fat: 15g, Carbs: 70g\n\n* **Dinner (7:00 PM - Recovery & Repair):** Baked salmon (150g), sweet potato (200g roasted), steamed broccoli (150g), and brown rice (80g cooked weight) with light butter (10g).\n    * Protein: 35g, Fat: 18g, Carbs: 75g\n\n* **Evening Snack (9:00 PM - Overnight Recovery):** Greek yogurt (200g, full-fat), granola (30g), and berries (80g).\n    * Protein: 20g, Fat: 8g, Carbs: 35g\n\n**Hydration Strategy:** Drink 500ml water every hour throughout the day, with electrolyte beverage during/after the workout. Total fluid intake: 3-4 liters.\n\nThis meal plan strategically times carbohydrate intake around the high-intensity workout, includes adequate protein for muscle recovery, and maintains consistent energy levels throughout the marathon training day.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training day with high-intensity endurance workout requiring 3000+ calories with carbohydrate loading and strategic hydration timing",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 3000+ calories with carbohydrate-focused macronutrient distribution (55-65% carbs)",
+        "Includes 4-5 eating occasions with hydration timing aligned to workout intensity",
+        "Compact format presented as single-day schedule with meal times and portion sizes"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrate loading and hydration timing throughout the day"
+    },
+    "score": 8,
+    "reasoning": "The solution comprehensively addresses all mandatory requirements with clear daily totals, detailed macronutrient breakdown, and 7 meals with specific foods, portions, and times. The carbohydrate focus is strong at 52.5% (420g), falling just short of the 55-65% target but remaining highly appropriate for endurance training. Hydration strategy is well-integrated with workout timing. The primary deficiency is the number of eating occasions (7 vs. 4-5 requested), which slightly compromises the 'compact' requirement, though the format remains well-organized and readable. The solution is practical, evidence-based, and effectively supports marathon training goals."
+  }
+]
